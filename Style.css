@@ -1,0 +1,47 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+.gallery_main_container{
+
+    background-color: #7D9EA3;
+    padding: 40px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gallery{
+    width: 50%;
+    /* height: 400px; */
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 50px;
+    
+
+    
+}
+.gallery img{
+    padding: 5px;
+    width: 10%;
+    height: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+    object-fit: cover;
+    transition: all ease 1s;
+    box-shadow: 0 0 10px 10px  #778284 ;
+}
+.gallery img:hover{
+
+    width: 60%;
+    object-fit: cover;
+    cursor: pointer;
+    animation-name: bounce;
+}
